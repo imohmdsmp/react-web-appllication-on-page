@@ -1,0 +1,82 @@
+@for $i from 5 to 50 {
+    .fz-#{$i}{
+        font-size: #{$i}+px;
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+figure{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.bg-dark-blue{
+    background-color: #151423;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.hover-blue{
+    transition: .4s;
+    &:hover{
+        border:1px solid rgb(40, 40, 255) !important;
+    }
+}
+
+
+////////////////// colors
+.color-gray{
+    color: #616161;
+}
+
+// /////////////// bg colors
+.bg-blue-main{
+    background-color: #0060FF;
+}
+
+///////// with & height
+
+.h-50-p{
+    height: 50px;
+}
+
+.w-50-p{
+    width: 50px;
+}
+
+.mw-570{
+    max-width: 570px;
+}
+
+.mw-500{
+    max-width: 500px;
+}
+
+
+
+////////////// border- radius
+.bdrs-one-way{
+    border-radius: 50% 0 50% 50%;
+}

@@ -1,0 +1,248 @@
+.fz-5 {
+  font-size: 5px;
+}
+
+.fz-6 {
+  font-size: 6px;
+}
+
+.fz-7 {
+  font-size: 7px;
+}
+
+.fz-8 {
+  font-size: 8px;
+}
+
+.fz-9 {
+  font-size: 9px;
+}
+
+.fz-10 {
+  font-size: 10px;
+}
+
+.fz-11 {
+  font-size: 11px;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-13 {
+  font-size: 13px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-15 {
+  font-size: 15px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-17 {
+  font-size: 17px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-19 {
+  font-size: 19px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-21 {
+  font-size: 21px;
+}
+
+.fz-22 {
+  font-size: 22px;
+}
+
+.fz-23 {
+  font-size: 23px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.fz-25 {
+  font-size: 25px;
+}
+
+.fz-26 {
+  font-size: 26px;
+}
+
+.fz-27 {
+  font-size: 27px;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.fz-29 {
+  font-size: 29px;
+}
+
+.fz-30 {
+  font-size: 30px;
+}
+
+.fz-31 {
+  font-size: 31px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-33 {
+  font-size: 33px;
+}
+
+.fz-34 {
+  font-size: 34px;
+}
+
+.fz-35 {
+  font-size: 35px;
+}
+
+.fz-36 {
+  font-size: 36px;
+}
+
+.fz-37 {
+  font-size: 37px;
+}
+
+.fz-38 {
+  font-size: 38px;
+}
+
+.fz-39 {
+  font-size: 39px;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.fz-41 {
+  font-size: 41px;
+}
+
+.fz-42 {
+  font-size: 42px;
+}
+
+.fz-43 {
+  font-size: 43px;
+}
+
+.fz-44 {
+  font-size: 44px;
+}
+
+.fz-45 {
+  font-size: 45px;
+}
+
+.fz-46 {
+  font-size: 46px;
+}
+
+.fz-47 {
+  font-size: 47px;
+}
+
+.fz-48 {
+  font-size: 48px;
+}
+
+.fz-49 {
+  font-size: 49px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.bg-dark-blue {
+  background-color: #151423;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.hover-blue {
+  transition: 0.4s;
+}
+.hover-blue:hover {
+  border: 1px solid rgb(40, 40, 255) !important;
+}
+
+.color-gray {
+  color: #616161;
+}
+
+.bg-blue-main {
+  background-color: #0060FF;
+}
+
+.h-50-p {
+  height: 50px;
+}
+
+.w-50-p {
+  width: 50px;
+}
+
+.mw-570 {
+  max-width: 570px;
+}
+
+.mw-500 {
+  max-width: 500px;
+}
+
+.bdrs-one-way {
+  border-radius: 50% 0 50% 50%;
+}/*# sourceMappingURL=master.css.map */

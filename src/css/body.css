@@ -1,0 +1,140 @@
+.color-blue-main {
+  color: #0060FF;
+}
+
+.firstSection {
+  background-image: url(../img/top-page-bg.webp);
+  background-size: contain;
+  background-color: #151423;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstSection h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+}
+.firstSection p {
+  color: white;
+}
+
+.mask-third,
+.mask-seccond,
+.mask-first {
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: 100% 100%;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+.mask-third > img,
+.mask-seccond > img,
+.mask-first > img {
+  transition: 0.4s;
+}
+.mask-third > img:hover,
+.mask-seccond > img:hover,
+.mask-first > img:hover {
+  transform: scale(1.08);
+}
+
+.mask-first {
+  -webkit-mask-image: url("../img/humans3.webp");
+          mask-image: url("../img/humans3.webp");
+}
+
+.mask-seccond {
+  -webkit-mask-image: url("../img/halfCircle5.webp");
+          mask-image: url("../img/halfCircle5.webp");
+}
+
+.mask-third {
+  -webkit-mask-image: url("../img/human4.webp");
+          mask-image: url("../img/human4.webp");
+}
+.mask-third::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 16px;
+  margin-left: 4px;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  border: 10px solid #0060FF;
+}
+
+.up-down-anim {
+  position: relative;
+  top: 50px;
+  -webkit-animation-name: updown;
+          animation-name: updown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  display: flex;
+  transform: translateY(0);
+}
+
+@-webkit-keyframes updown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(40%);
+  }
+}
+
+@keyframes updown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(40%);
+  }
+}
+.down-up-anim {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-animation-name: downup;
+          animation-name: downup;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  display: flex;
+  transform: translateY(0);
+}
+
+@-webkit-keyframes downup {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(40%);
+  }
+}
+
+@keyframes downup {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(40%);
+  }
+}/*# sourceMappingURL=body.css.map */
