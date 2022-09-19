@@ -1,7 +1,3 @@
-.color-blue-main {
-  color: #0060FF;
-}
-
 .firstSection {
   background-image: url(../img/top-page-bg.webp);
   background-size: contain;
@@ -137,4 +133,75 @@
   to {
     transform: translateY(40%);
   }
+}
+.forthsection {
+  min-height: 700px;
+  background-image: url("../img/3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.glass-papper {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 2, 74, 0.81);
+}
+
+.dropdown-wrapper > div {
+  border-radius: 4px 4px 0 0;
+  margin: 10px 0 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.dropdown-wrapper p {
+  border-radius: 0 0 10px 10px;
+  transition: 0.8s cubic-bezier(0.29, 0.05, 0.39, 1.01);
+  max-height: 0;
+  overflow-y: hidden;
+  padding: 0 20px;
+}
+
+.question-img {
+  position: relative;
+  top: 70px;
+  left: 40px;
+  -webkit-animation-name: question;
+          animation-name: question;
+  -webkit-animation-name: downup;
+          animation-name: downup;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  display: flex;
+  transform: translateY(0);
+}
+
+@-webkit-keyframes question {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(40%);
+  }
+}
+
+@keyframes question {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(40%);
+  }
+}
+.list-on {
+  list-style: disc;
+  color: #0060FF;
 }/*# sourceMappingURL=body.css.map */

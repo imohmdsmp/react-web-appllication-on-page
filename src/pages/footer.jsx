@@ -2,8 +2,10 @@ import '../css/footer.css'
 
 function SectionLeft(){
     return(
-        <div className="col">
-            <h3>About company</h3>
+        <div className="col text-white">
+            <h6 className=''>About company</h6>
+            <address className='fz-13'>Address</address>
+            <p className='fz-13'>Melbourne’s GPO 434 VIC 3074, Australia.</p>
         </div>
     )
 }
@@ -11,24 +13,24 @@ function SectionLeft(){
 function SectionCenter(){
     return(
         <div className="col d-flex align-items-center">
-            <div>
-                <h3>Service</h3>
-                <ul>
-                    <li><a href="#">Web design</a></li>
-                    <li><a href="#">Digital marketing</a></li>
-                    <li><a href="#">It management</a></li>
-                    <li><a href="#">Cloud services</a></li>
-                    <li><a href="#">Machine learning</a></li>
+            <div className='me-5'>
+                <h6 className='pb-3 text-white'>Service</h6>
+                <ul className='list-on p-0 mx-3'>
+                    <li><a href="#" className='text-white fz-13'>Web design</a></li>
+                    <li><a href="#" className='text-white fz-13'>Digital marketing</a></li>
+                    <li><a href="#" className='text-white fz-13'>It management</a></li>
+                    <li><a href="#" className='text-white fz-13'>Cloud services</a></li>
+                    <li><a href="#" className='text-white fz-13'>Machine learning</a></li>
                 </ul>
             </div>
             <div>
-                <h3>Useful link</h3>
-                <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Team</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Contact Us</a></li>
+                <h6 className='pb-3 text-white'>Useful link</h6>
+                <ul className='list-on p-0 mx-3'>
+                    <li><a href="" className='text-white fz-13'>About Us</a></li>
+                    <li><a href="" className='text-white fz-13'>Team</a></li>
+                    <li><a href="" className='text-white fz-13'>Portfolio</a></li>
+                    <li><a href="" className='text-white fz-13'>Service</a></li>
+                    <li><a href="" className='text-white fz-13'>Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -38,20 +40,9 @@ function SectionCenter(){
 function SectionRight(){
     return(
         <div className="col">
-            <h3>Contact us</h3>
-            <label htmlFor="email"></label>
-            <input type="text" id='email' />
-            <div className="d-flex align-items-center justify-content-center">
-                <div>
-                <label htmlFor="check"></label>
-                <input type="checkbox" id='check' />
-                </div>
-                <div>
-                    <p>
-                    Maecenas tempususcondime honcus sem quam libero
-                    </p>
-                </div>
-            </div>
+            <h6 className='text-white'>Contact us</h6>
+            <label htmlFor="email" ></label>
+            <input type="text" id='email' placeholder='Your Email' className='bg-transparent border-white px-3 py-2 text-white mt-3 mb-4' />
         </div>
     )
 }
@@ -60,8 +51,8 @@ function SectionRight(){
 export default function Footer(){
     return(
         <footer className="container-fluid">
-            <div className="container">
-                <div className="row">
+            <div className="container py-5">
+                <div className="row align-items-baseline justify-content-center py-5">
                     <SectionLeft />
                     <SectionCenter />
                     <SectionRight />

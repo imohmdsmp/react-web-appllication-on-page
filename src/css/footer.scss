@@ -1,5 +1,53 @@
 footer{
     background-image: url(../img/Footer.webp);
-    background-size: cover;
+    background-size: contain;
     background-position: center;   
+}
+
+
+.slider-wrapper{
+    display: flex;
+    max-width: 1000px;
+    margin:20px auto;
+    border: 2px solid blue;
+    padding: 10px;
+    justify-content: left;
+    position: relative;
+
+    figure{
+        width: 200px;
+        height: 300px;
+        border:2px solid red;
+        margin: 0 10px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+.slider-btn-parent{
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    >div{
+        background-color: blue;
+        font-size: 30px;
+        border-radius: 4px;
+        margin: 10px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.slider-main{
+    display: flex;
+    position: relative;
+    transition: 1s;
+    left: 0;
 }

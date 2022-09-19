@@ -51,12 +51,29 @@ figure{
     color: #616161;
 }
 
+
+.color-blue-main{
+    color: #0060FF;
+}
+
 // /////////////// bg colors
+.bg-light-white{
+    background-color: #f4f8ff;
+}
+
 .bg-blue-main{
     background-color: #0060FF;
 }
 
+.bg-blue-glass{
+    background-color: rgba(3, 11, 24, 0.6);
+}
+
 ///////// with & height
+
+.h-270-p{
+    height: 270px;
+}
 
 .h-50-p{
     height: 50px;
@@ -66,6 +83,10 @@ figure{
     width: 50px;
 }
 
+.w-270-p{
+    width: 270px;
+}
+
 .mw-570{
     max-width: 570px;
 }
@@ -73,10 +94,18 @@ figure{
 .mw-500{
     max-width: 500px;
 }
-
+.mw-400{
+    max-width: 400px;
+}
 
 
 ////////////// border- radius
 .bdrs-one-way{
     border-radius: 50% 0 50% 50%;
+}
+
+// zIndex
+
+.z-index-1{
+    z-index: 1;
 }
