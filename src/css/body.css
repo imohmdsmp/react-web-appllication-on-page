@@ -158,10 +158,11 @@
 }
 .dropdown-wrapper p {
   border-radius: 0 0 10px 10px;
-  transition: 0.8s cubic-bezier(0.29, 0.05, 0.39, 1.01);
+  transition: 400ms;
   max-height: 0;
   overflow-y: hidden;
-  padding: 0 20px;
+  padding: 0 20px 20px;
+  opacity: 0;
 }
 
 .question-img {
@@ -180,7 +181,7 @@
           animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  display: flex;
+  display: inline-block;
   transform: translateY(0);
 }
 
