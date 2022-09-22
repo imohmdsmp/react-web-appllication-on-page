@@ -177,4 +177,19 @@
     list-style: disc;
     color: #0060FF;
 
+}   
+
+.child-hover{
+    >div{
+        transition: .5s;
+        i{
+            transition: .5s;
+        }
+        &:hover{
+            background-color: #0060FF;
+            i{
+                color: white;
+            }
+        }
+    }
 }

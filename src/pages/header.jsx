@@ -46,7 +46,7 @@ export default function Header(){
     return(
         <>
             <header className="container-fluid bg-dark-blue d-none d-md-block">
-                <div className="container px-5">
+                <div className="container px-5 py-5">
                     <div className="row justify-content-between align-items-center py-3 bg-white rounded-1 px-5">
                         <Logo />
                         <List/>

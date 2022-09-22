@@ -9,9 +9,16 @@
     li {
         a {
             color: rgb(19, 19, 19);
-            padding: 0 10px;
+            padding: 0 30px;
             font-weight: 500;
             font-size: 18px;
+            transition: .5s;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            &:hover{
+                color: #0060FF;
+                border-bottom: 2px solid #0060FF;
+            }
         }
     }
 }

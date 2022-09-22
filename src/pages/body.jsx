@@ -167,7 +167,7 @@ function ThirdSection(){
 
 function ForthSecL(){
     return(
-        <div className="col-lg-6 text-white bg-blue-main mw-400 d-flex align-items-center justify-content-center flex-column p-5">
+        <div className="col-xxl-6 text-white bg-blue-main mw-400 d-flex align-items-center justify-content-center flex-column p-5">
             <h2 className='text-center'>We provide the best IT solution</h2>
             <p className='mt-4'>Vestibulum ante ipsum primis ibus orci luctus etultrices posuebilia rae Sed aliquam nisi quis porttitor gue elitrat euismod oplacer</p>
             <p>Rae Sed aliquam nisi quis aliquam Vestibulum ante ipsum primis ibus orci luctus etultrices posuebilia rae Sed aliquam nisi quis porttitor gue elitrat oplacer</p>
@@ -181,8 +181,8 @@ function ForthSecL(){
 
 function ForthSecR(){
     return(
-        <div className="col d-flex flex-wrap align-items-center justify-content-center mw-570">
-            <div className='row gy-2 me-1 justify-content-center justify-content-md-start mt-5'>
+        <div className="col-xxl-6 d-flex flex-wrap align-items-center justify-content-center mw-570">
+            <div className='row gy-2 me-1 justify-content-center justify-content-md-start mt-5 child-hover'>
                 <div className="col-12 d-flex flex-column justify-content-center align-items-center bg-blue-glass w-270-p h-270-p text-white me-md-2">
                     <i className='bi-slack color-blue-main fz-40'></i>
                         <h4 className='mt-2'>Web design</h4>
@@ -194,7 +194,7 @@ function ForthSecR(){
                         <p className='mt-3 fz-14 px-1 text-center'>Curabitur ullamcorper ultricies nisiam tiamns rhoncus. Maecenas tempus tellus endimentum</p>
                 </div>
             </div>
-            <div className='row gy-2 me-1 justify-content-center justify-content-md-start mt-1 mb-5 '>
+            <div className='row gy-2 me-1 justify-content-center justify-content-md-start mt-1 mb-5 child-hover'>
             <div className="col-12 d-flex flex-column justify-content-center align-items-center bg-blue-glass w-270-p h-270-p text-white me-md-2">
                     <i className='bi-cloud-upload-fill color-blue-main fz-40'></i>
                         <h4 className='mt-2'>Cloud Service</h4>
@@ -215,7 +215,7 @@ function FourthSection(){
         <div className="container-fluid d-flex justify-content-center forthsection position-relative">
             <div className='glass-papper'></div>
             <div className="container z-index-1">
-                <div className="row pt-3 mt-5 justify-content-evenly mx-2">
+                <div className="row pt-3 mt-5 justify-content-evenly mx-2 align-items-baseline">
                     <ForthSecL />
                     <ForthSecR />
                 </div>

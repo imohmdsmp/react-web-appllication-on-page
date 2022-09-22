@@ -205,4 +205,17 @@
 .list-on {
   list-style: disc;
   color: #0060FF;
+}
+
+.child-hover > div {
+  transition: 0.5s;
+}
+.child-hover > div i {
+  transition: 0.5s;
+}
+.child-hover > div:hover {
+  background-color: #0060FF;
+}
+.child-hover > div:hover i {
+  color: white;
 }/*# sourceMappingURL=body.css.map */

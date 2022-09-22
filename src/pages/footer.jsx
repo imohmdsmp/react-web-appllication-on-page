@@ -2,7 +2,7 @@ import '../css/footer.css'
 
 function SectionLeft(){
     return(
-        <div className="col text-white">
+        <div className="col-md text-white">
             <h6 className=''>About company</h6>
             <address className='fz-13'>Address</address>
             <p className='fz-13'>Melbourne’s GPO 434 VIC 3074, Australia.</p>
@@ -12,7 +12,7 @@ function SectionLeft(){
 
 function SectionCenter(){
     return(
-        <div className="col d-flex align-items-center">
+        <div className="col-md d-flex align-items-center my-5 my-lg-0">
             <div className='me-5'>
                 <h6 className='pb-3 text-white'>Service</h6>
                 <ul className='list-on p-0 mx-3'>
@@ -39,7 +39,7 @@ function SectionCenter(){
 
 function SectionRight(){
     return(
-        <div className="col">
+        <div className="col-md">
             <h6 className='text-white'>Contact us</h6>
             <label htmlFor="email" ></label>
             <input type="text" id='email' placeholder='Your Email' className='bg-transparent border-white px-3 py-2 text-white mt-3 mb-4' />
@@ -51,7 +51,7 @@ function SectionRight(){
 export default function Footer(){
     return(
         <footer className="container-fluid">
-            <div className="container py-5">
+            <div className="container py-lg-5">
                 <div className="row align-items-baseline justify-content-center py-5">
                     <SectionLeft />
                     <SectionCenter />
